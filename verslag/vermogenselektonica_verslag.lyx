@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language dutch
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -56,7 +56,7 @@
 \tocdepth 3
 \paragraph_separation skip
 \defskip bigskip
-\quotes_language english
+\quotes_language polish
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -70,7 +70,11 @@
 \begin_body
 
 \begin_layout Title
-Vermogenselektronica
+Vermogenselektronica Practicum
+\begin_inset Newline newline
+\end_inset
+
+Elektrotechniek
 \end_layout
 
 \begin_layout Author
@@ -79,6 +83,10 @@ Andrew Lau
 \end_inset
 
 Kevin Oei
+\begin_inset Newline newline
+\end_inset
+
+EQ1.a
 \end_layout
 
 \begin_layout Date
@@ -86,6 +94,548 @@ xx-01-2015
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Inleiding
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Doel
+\end_layout
+
+\begin_layout Standard
+Het doel van de practicum is inzicht verkrijgen in de werking van de boostconver
+ter.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Meetopstelling
+\end_layout
+
+\begin_layout Standard
+Voor het meten van de opdrachten van de practicum zijn ........
+ gebruikt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Metingen
+\end_layout
+
+\begin_layout Subsection
+Meting 1
+\end_layout
+
+\begin_layout Itemize
+Meet en noteer de uitgangsspanning en stroom van de boostconverter bij de
+ volgende dutycycles: 10, 15, 25, 50, 75%, onbelast, met 560Ohm belasting
+ en met 56Ohm belasting.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Onbelast
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+42,3V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+87,5V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+128,6V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+166,4V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+206,0V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+belast met 560Ohm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Belast met 56Ohm
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23,2V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20,8V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27,1V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21,6V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34,5V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24,9V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+52,2V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29,1V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+73,0V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14,8V
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Stroombegrensing bereikt vanaf 46% bij een belasting van 56Ohm.
+\end_layout
+
+\begin_layout Itemize
+Zet de dutycycle op 30%, sluit de 560Ohm belasting aan.
+ Meet en noteer de ingangsspanning en stroom, en uitgangsspannin en stroom.
+\end_layout
+
+\begin_layout Itemize
+Bereken het rendement van de converter.
+ Met en zonder eigenverbruik.
+\end_layout
+
+\begin_layout Itemize
+Meet met de scoop de stroom door de shunt.
+ Wat is er anders aan de golfvorm dan de golfvorm uit de theorie? Teken
+ de golfvorm van de oscilloscoop en verklaar.
+\end_layout
+
+\begin_layout Itemize
+Meet met de scoop de spanning over de mosfet (van drain naar ground).
+ Teken de golfvorm en verklaar de verschillende spanningsniveau in de figuur.
+\end_layout
+
+\begin_layout Itemize
+Meet met de scoop de spanning over de spoel (gebruik twee probes).
+ Teken de golfvorm en verklaar de verschillende spanningsniveau in de figuur.
+\end_layout
+
+\begin_layout Itemize
+Is de converter nu in discontinu of continu bedrijf?
+\end_layout
+
+\begin_layout Subsection
+Meting 2
+\end_layout
+
+\begin_layout Itemize
+Sluit de 56Ohm belasting aan met een dutycycle van 30%.
+ Meet en noteer de ingangsspanning en stroom, en uitgangsspanning en stroom.
+\end_layout
+
+\begin_layout Itemize
+Bereken het rendement van de converter.
+ Met en zonder eigenverbruik.
+\end_layout
+
+\begin_layout Itemize
+Meet met de scoop de stroom doorheen de shunt.
+ Wat is er anders aan de golfvorm dan de golfvorm uit de theorie? Teken
+ de golfvorm van de oscilloscoop en verklaar.
+\end_layout
+
+\begin_layout Itemize
+Meet met de scoop de spanning over de mosfet.
+ Teken de golfvorm en verklaar de verschillende spanningsniveau in de figuur.
+\end_layout
+
+\begin_layout Itemize
+Meet met de scoop de spanning over de spoel.
+ Teken de golfvorm en verklaar de verschillende spanningsniveau in de figuur.
+\end_layout
+
+\begin_layout Itemize
+Is de converter nu in discontinu of continu bedrijf?
+\end_layout
+
+\begin_layout Subsection
+Meting 3
+\end_layout
+
+\begin_layout Standard
+Closed loop metingen.
+ Haal de functiegenerator los, zet de TL3843 in het ic voetje en sluit de
+ 560Ohm belasting aan.
+ Ingangsspanning 20V (Stroombegrenzing op maximaal of op 1,5A)
+\end_layout
+
+\begin_layout Itemize
+Meet en noteer de in- en uitgansstroom en spanning, en bereken het rendement
+ van de converter.
+\end_layout
+
+\begin_layout Itemize
+Meet de stroom door de shunt met de scoop.
+ Bekijk de spanning over de shunt.
+ Is de converter nu discontinue of continue?
+\end_layout
+
+\begin_layout Itemize
+Sluit de 56Ohm belasting aan.
+ Draai de ingansspanning van de converter langzaam omhoog vanaf 10V en kijk
+ wat er gebeurt met het stroomsignaal.
+ Beschrijf wat je ziet en verklaar.
+\end_layout
+
+\begin_layout Subsection
+Meting 4
+\end_layout
+
+\begin_layout Itemize
+Bepaal aan de hand van de gemeten spanning en stroom de inductie van de
+ spoel.
+\end_layout
+
+\begin_layout Itemize
+Maak van deze meting een meetrapport.
+ Gebruik daarbij scopenbeelden uit de oscilloscoop
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusie en aanbeveling
+\end_layout
+
+\begin_layout Subsection
+Conclusie
+\end_layout
+
+\begin_layout Standard
+De concluse die getrokken is ......
+\end_layout
+
+\begin_layout Subsection
+Aanbeveling
+\end_layout
+
+\begin_layout Standard
+Onze aanbevelingen zijn ........
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
 
 \end_layout
 
