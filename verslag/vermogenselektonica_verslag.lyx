@@ -331,8 +331,9 @@ Meting 1
 
 \begin_layout Itemize
 Meet en noteer de uitgangsspanning en stroom van de boostconverter bij de
- volgende dutycycles: 10, 15, 25, 50, 75%, onbelast, met 560Ohm belasting
- en met 56Ohm belasting.
+ volgende dutycycles: 10, 15, 25, 50 en 75% met 560Ω belasting en met 56Ω
+ belasting.
+ Voor onbelast de duty cycle tot 18%.
 \end_layout
 
 \begin_layout Standard
@@ -493,7 +494,7 @@ duty cycle (%)
 \begin_inset Text
 
 \begin_layout Plain Layout
-belast met 560Ohm
+belast met 560Ω
 \end_layout
 
 \end_inset
@@ -502,7 +503,7 @@ belast met 560Ohm
 \begin_inset Text
 
 \begin_layout Plain Layout
-Belast met 56Ohm
+Belast met 56Ω
 \end_layout
 
 \end_inset
@@ -665,7 +666,7 @@ Tabel 3.1.2
 \end_layout
 
 \begin_layout Standard
-Bij een duty cycle van 75% met een belasting van 56Ohm is V
+Bij een duty cycle van 75% met een belasting van 56Ω is V
 \begin_inset script subscript
 
 \begin_layout Plain Layout
@@ -674,7 +675,7 @@ out
 
 \end_inset
 
- = 14,8V.
+ gelijk aan 14,8V.
  Het komt voor dat V
 \begin_inset script subscript
 
@@ -696,36 +697,94 @@ out
  bij een duty cycle van 50% omdat de spanningsbron niet voldoende stroom
  levert.
  De stroombegrenzing is dus bereikt.
- De stroombegrenzing is vanaf 46% bij een belasting van 56Ohm bereikt.
+ De stroombegrenzing is vanaf 46% bij een belasting van 56Ω bereikt.
 \end_layout
 
 \begin_layout Itemize
-Zet de dutycycle op 30%, sluit de 560Ohm belasting aan.
- Meet en noteer de ingangsspanning en stroom, en uitgangsspannin en stroom.
+Zet de dutycycle op 30%, sluit de 560Ω belasting aan.
+ Meet en noteer de ingangsspanning en stroom, en uitgangsspanning en stroom.
 \end_layout
 
 \begin_layout Standard
-Vin = 20,0V
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
 \end_layout
 
-\begin_layout Standard
-Iin = 0,16A
+\end_inset
+
+ = 20,0V
+\begin_inset Newline newline
+\end_inset
+
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
 \end_layout
 
-\begin_layout Standard
-Vsupply = 18,9V
+\end_inset
+
+ = 0,16A
+\begin_inset Newline newline
+\end_inset
+
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+supply
 \end_layout
 
-\begin_layout Standard
-Isupply = 6,426mA
+\end_inset
+
+ = 18,9V
+\begin_inset Newline newline
+\end_inset
+
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+supply
 \end_layout
 
-\begin_layout Standard
-Vout = 38,3V
+\end_inset
+
+ = 6,426mA
+\begin_inset Newline newline
+\end_inset
+
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
 \end_layout
 
-\begin_layout Standard
-Iout = 38,3V / 560Ohm = 0,068A
+\end_inset
+
+= 38,3V
+\begin_inset Newline newline
+\end_inset
+
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+= 
+\begin_inset Formula $\frac{38,3V}{560Ω}=0,068A$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -734,25 +793,58 @@ Bereken het rendement van de converter.
 \end_layout
 
 \begin_layout Standard
-Pin = 20,0V * 0,16A = 3,2W
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
+\end_layout
+
+\end_inset
+
+ = 20,0V * 0,16A = 3,2W
+\begin_inset Newline newline
+\end_inset
+
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+supply
+\end_layout
+
+\end_inset
+
+ = 18,9V * 6,426mA = 121,45mW = 0,12145W
+\begin_inset Newline newline
+\end_inset
+
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out 
+\end_layout
+
+\end_inset
+
+= 38,3V * 0,068A = 2,6044W
 \end_layout
 
 \begin_layout Standard
-Psupply = 18,9V * 6,426mA = 121,45mW = 0,12145W
+Rendement met eigenverbruik: η = 
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}+P_{SUPPLY}}=\frac{2,6044}{3,2+0,12145}=0,784(78,4\%)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Pout = 38,3V * 0,068A = 2,6044W
-\end_layout
+Rendement zonder eigenverbruik: η = 
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}}=\frac{2,6044}{3,2}=0,814(81,4\%)$
+\end_inset
 
-\begin_layout Standard
-Rendement met eigenverbruik: η = Pout / (Pin + Psupply) = 2,6044 / (3,2
- + 0,12145) = 0,784 (78,4%)
-\end_layout
 
-\begin_layout Standard
-Rendement zonder eigenverbruik: η = Pout / Pin = 2,6044 / 3,2 = 0,814 (81,4%)
- 
 \end_layout
 
 \begin_layout Itemize
@@ -779,15 +871,14 @@ Figuur 3.1.1
 In figuur 3.1.1 is een scoopbeeld van de stroom over de shunt te zien.
  De golfvorm van de stroom van figuur 3.1.1 en de golfvorm uit de theorie
  zijn bijna hetzelfde.
- Er is namelijk een klein verschill.
+ Er is namelijk een klein verschil.
  In figuur 3.1.1 is een vertikale lijn te zien wanneer de stroom toeneemt
  (wanneer de mosfet ingeschakeld is) terwijl volgens de golfvorm uit de
- theorie geen vertikale lijn aanwezig is wanneer de stroom toeneemt (wanneer
- de mosfet ingeschakeld is).
+ theorie geen vertikale lijn aanwezig is wanneer de stroom toeneemt.
  Er is een vertikale lijn omdat de mosfet een push nodig heeft voor het
  inschakelen.
- Dus de stroom door de stunt stijgt voor een kort moment voor aanvangst
- van het inschakelen van de mosfet.
+ Dus de stroom door de stunt stijgt voor een kort moment voor aanvang van
+ het inschakelen van de mosfet.
 \end_layout
 
 \begin_layout Itemize
@@ -882,32 +973,90 @@ Meting 2
 \end_layout
 
 \begin_layout Itemize
-Sluit de 56Ohm belasting aan met een dutycycle van 30%.
+Sluit de 56Ω belasting aan met een dutycycle van 30%.
  Meet en noteer de ingangsspanning en stroom, en uitgangsspanning en stroom.
 \end_layout
 
 \begin_layout Standard
-Vin = 20,0V
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
 \end_layout
 
-\begin_layout Standard
-Iin = 0,71A
+\end_inset
+
+ = 20,0V
+\begin_inset Newline newline
+\end_inset
+
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
 \end_layout
 
-\begin_layout Standard
-Vsupply = 18,9V
+\end_inset
+
+ = 0,71A
+\begin_inset Newline newline
+\end_inset
+
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+supply
 \end_layout
 
-\begin_layout Standard
-Isupply = 6,429mA
+\end_inset
+
+ = 18,9V
+\begin_inset Newline newline
+\end_inset
+
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+supply
 \end_layout
 
-\begin_layout Standard
-Vout = 27,1V
+\end_inset
+
+ = 6,429mA
+\begin_inset Newline newline
+\end_inset
+
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
 \end_layout
 
-\begin_layout Standard
-Iout = 27,1V / 56Ohm = 0,484A
+\end_inset
+
+ = 27,1V
+\begin_inset Newline newline
+\end_inset
+
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+ =
+\begin_inset Formula $\frac{27,1V}{56Ω}=0,484A$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
