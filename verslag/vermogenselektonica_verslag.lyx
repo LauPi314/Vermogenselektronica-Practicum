@@ -100,7 +100,7 @@ EQ1.a
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Boostconverter_schakeling.jpg
+	filename ../foto's/Boostconverter_schakeling.jpg
 	scale 55
 	rotateOrigin center
 
@@ -206,7 +206,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Boostconverter_schakeling.jpg
+	filename ../foto's/Boostconverter_schakeling.jpg
 	scale 35
 
 \end_inset
@@ -259,7 +259,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/belasting.jpg
+	filename ../foto's/belasting.jpg
 	scale 35
 
 \end_inset
@@ -298,7 +298,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/oscilloscoop.jpg
+	filename ../foto's/oscilloscoop.jpg
 	scale 80
 
 \end_inset
@@ -356,7 +356,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/functiegenerator.jpg
+	filename ../foto's/functiegenerator.jpg
 	scale 35
 
 \end_inset
@@ -411,7 +411,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Digitale multimeter.jpg
+	filename ../foto's/Digitale multimeter.jpg
 	lyxscale 20
 	scale 10
 
@@ -468,7 +468,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/spanningsbron.jpg
+	filename ../foto's/spanningsbron.jpg
 	scale 35
 
 \end_inset
@@ -1184,7 +1184,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Meting 1/TEK00001.PNG
+	filename ../foto's/Meting 1/TEK00001.PNG
 	scale 80
 
 \end_inset
@@ -1270,7 +1270,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Meting 1/TEK00002.PNG
+	filename ../foto's/Meting 1/TEK00002.PNG
 	scale 80
 
 \end_inset
@@ -1359,7 +1359,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Meting 1/TEK00003.PNG
+	filename ../foto's/Meting 1/TEK00003.PNG
 	scale 80
 
 \end_inset
@@ -1690,7 +1690,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Meting 2/Meting 2-3.PNG
+	filename ../foto's/Meting 2/Meting 2-3.PNG
 	scale 80
 
 \end_inset
@@ -1776,7 +1776,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Meting 2/Meting 2-4.PNG
+	filename ../foto's/Meting 2/Meting 2-4.PNG
 	scale 80
 
 \end_inset
@@ -1821,7 +1821,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Meting 2/Meting 2-4 zoomed.PNG
+	filename ../foto's/Meting 2/Meting 2-4 zoomed.PNG
 	scale 80
 
 \end_inset
@@ -1907,14 +1907,51 @@ reference "fig:Spanning-mosfet-meting2"
 \end_layout
 
 \begin_layout Itemize
+
+\shape italic
 Meet met de scoop de spanning over de spoel.
  Teken de golfvorm en verklaar de verschillende spanningsniveau in de figuur.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Meting 2/Meting 2-5.PNG
+	filename ../foto's/Meting 2/Meting 2-5.PNG
 	scale 80
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Spanning over de spoel (weergegeven in rood)
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Spanning-spoel-meting2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -1922,21 +1959,62 @@ Meet met de scoop de spanning over de spoel.
 \end_layout
 
 \begin_layout Standard
-Figuur 3.2.4
-\end_layout
+In figuur 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Spanning-spoel-meting2"
 
-\begin_layout Standard
-In figuur 3.2.4 is de golfvorm van de spanning over de spoel te zien.
+\end_inset
+
+ is de golfvorm van de spanning over de spoel te zien.
  Wanneer de mosfet ingeschakeld is, is de spanning over de spoel gelijk
- aan de ingangsspanning, maar de spanning daalt.
+ aan de ingangsspanning, maar de spanning daalt na verloop van tijd.
  Wanneer de mosfet uitgeschakeld is, wordt de spanning over de spoel negatief.
  De negatieve spanning over de spoel is gelijk aan de ingangsspanning min
- de uitgangsspanning (Vin - Vout).
+ de uitgangsspanning (V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
+\end_layout
+
+\end_inset
+
+ - V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+).
  Door de plotselinge geleiding van de diode (D3) schiet de spanning over
- de spoel naar een nog lagere spanning (Vin - Vout) voor een korte periode.
+ de spoel naar een nog lagere spanning (V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
+\end_layout
+
+\end_inset
+
+ - V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+) voor een korte periode.
 \end_layout
 
 \begin_layout Itemize
+
+\shape italic
 Is de converter nu in discontinu of continu bedrijf?
 \end_layout
 
@@ -1949,6 +2027,8 @@ Meting 3
 \end_layout
 
 \begin_layout Standard
+
+\shape italic
 Closed loop metingen.
  Haal de functiegenerator los, zet de TL3843 in het ic voetje en sluit de
  560Ω belasting aan.
@@ -1956,78 +2036,279 @@ Closed loop metingen.
 \end_layout
 
 \begin_layout Itemize
-Meet en noteer de in- en uitgansstroom en spanning, en bereken het rendement
+
+\shape italic
+Meet en noteer de in- en uitgangsstroom en spanning, en bereken het rendement
  van de converter.
 \end_layout
 
 \begin_layout Standard
-Vin = 20,2V
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
+\end_layout
+
+\end_inset
+
+ = 20,2V
 \end_layout
 
 \begin_layout Standard
-Iin = 0,09A
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
+\end_layout
+
+\end_inset
+
+ = 0,09A
 \end_layout
 
 \begin_layout Standard
-Pin = 20,2V * 0,09A = 1,818W
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
+\end_layout
+
+\end_inset
+
+ = 20,2V * 0,09A = 1,818W
 \end_layout
 
 \begin_layout Standard
-Vsupply = 18,9V
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+supply
+\end_layout
+
+\end_inset
+
+ = 18,9V
 \end_layout
 
 \begin_layout Standard
-Isupply = 38,02mA
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+supply
+\end_layout
+
+\end_inset
+
+ = 38,02mA
 \end_layout
 
 \begin_layout Standard
-Psupply = 18,9V * 38,02mA = 718,58 mW = 0,71858 W
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+supply
+\end_layout
+
+\end_inset
+
+ = 18,9V * 38,02mA = 718,58 mW = 0,71858 W
 \end_layout
 
 \begin_layout Standard
-Vout = 30,1V
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+ = 30,1V
 \end_layout
 
 \begin_layout Standard
-Iout = 30,1V / 560Ω = 0,054A
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+ = 30,1V / 560Ω = 0,054A
 \end_layout
 
 \begin_layout Standard
-Pout = 30,1V * 0,054A = 1,618W
+P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+ = 30,1V * 0,054A = 1,618W
 \end_layout
 
 \begin_layout Standard
-Rendement met eigenverbruik: η = Pout / (Pin + Psupply) = 1,618 / (1,818
- + 0,71858) = 0,638 (63,8%)
+Rendement met eigenverbruik: η = P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+ / (P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
+\end_layout
+
+\end_inset
+
+ + P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+supply
+\end_layout
+
+\end_inset
+
+) = 1,618 / (1,818 + 0,71858) = 0,638 (63,8%)
 \end_layout
 
 \begin_layout Standard
-Rendement zonder eigenverbruik: η = Pout / Pin = 1,618 / 1,818 = 0,890 (89,0%)
- 
+Rendement zonder eigenverbruik: η = P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+ / P
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+in
+\end_layout
+
+\end_inset
+
+ = 1,618 / 1,818 = 0,890 (89,0%) 
 \end_layout
 
 \begin_layout Itemize
+
+\shape italic
 Meet de stroom door de shunt met de scoop.
  Bekijk de spanning over de shunt.
- Is de converter nu discontinue of continue?
+ Is de converter nu discontinu of continu?
 \end_layout
 
 \begin_layout Standard
-Vshunt = 143mV
+V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+shunt
+\end_layout
+
+\end_inset
+
+ = 143mV
 \end_layout
 
 \begin_layout Standard
-Rshunt = R4 // R5 = (2,2Ω * 2,2Ω) / (2,2Ω + 2,2Ω) = 1,1Ω
+R
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+shunt
+\end_layout
+
+\end_inset
+
+ = R4 // R5 = (2,2Ω * 2,2Ω) / (2,2Ω + 2,2Ω) = 1,1Ω
 \end_layout
 
 \begin_layout Standard
-Ishunt = Vshunt / Rshunt = 143mV / 1,1Ω = 130mA
+I
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+shunt
+\end_layout
+
+\end_inset
+
+ = V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+shunt
+\end_layout
+
+\end_inset
+
+ / R
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+shunt
+\end_layout
+
+\end_inset
+
+ = 143mV / 1,1Ω = 130mA
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/Meting 3/Meting 3-2.PNG
+	filename ../foto's/Meting 3/Meting 3-2.PNG
 	scale 80
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Spanning over de shunt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -2035,17 +2316,15 @@ Ishunt = Vshunt / Rshunt = 143mV / 1,1Ω = 130mA
 \end_layout
 
 \begin_layout Standard
-Figuur 4.3.x
-\end_layout
-
-\begin_layout Standard
 De converter is in discontinu bedrijf.
 \end_layout
 
 \begin_layout Itemize
+
+\shape italic
 Sluit de 56Ω belasting aan.
- Draai de ingansspanning van de converter langzaam omhoog vanaf 10V en kijk
- wat er gebeurt met het stroomsignaal.
+ Draai de ingangsspanning van de converter langzaam omhoog vanaf 10V en
+ kijk wat er gebeurt met het stroomsignaal.
  Beschrijf wat je ziet en verklaar.
 \end_layout
 
@@ -2054,23 +2333,45 @@ Meting 4
 \end_layout
 
 \begin_layout Itemize
+
+\shape italic
 Bepaal aan de hand van de gemeten spanning en stroom de inductie van de
  spoel.
 \end_layout
 
 \begin_layout Standard
-Fs = 50000Hz
+F
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+S
+\end_layout
+
+\end_inset
+
+ = 50000Hz
 \end_layout
 
 \begin_layout Standard
-T = 1 / Fs = 1 / 50000 = 0,00002s = 20μs
+T = 1 / F
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+S
+\end_layout
+
+\end_inset
+
+ = 1 / 50000 = 0,00002s = 20μs
 \end_layout
 
 \begin_layout Standard
-duty-cycle = 30% = 0,3
+Duty-cycle = 30% = 0,3
 \end_layout
 
 \begin_layout Itemize
+
+\shape italic
 Maak van deze meting een meetrapport.
  Gebruik daarbij scopenbeelden uit de oscilloscoop
 \end_layout
@@ -2132,7 +2433,7 @@ Bijlage
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename GitHubRepo/Vermogenselektronica-Practicum/foto's/werkelijke_schakelin.png
+	filename ../foto's/werkelijke_schakelin.png
 	scale 90
 	rotateAngle 90
 
