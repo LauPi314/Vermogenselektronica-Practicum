@@ -300,7 +300,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ../foto's/oscilloscoop.jpg
-	scale 80
+	width 50page%
 
 \end_inset
 
@@ -1453,9 +1453,9 @@ in
 \end_inset
 
  = 20,0V
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -1466,9 +1466,9 @@ in
 \end_inset
 
  = 0,71A
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 V
 \begin_inset script subscript
 
@@ -1479,9 +1479,9 @@ supply
 \end_inset
 
  = 18,9V
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -1492,9 +1492,9 @@ supply
 \end_inset
 
  = 6,429mA
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 V
 \begin_inset script subscript
 
@@ -1505,9 +1505,9 @@ out
 \end_inset
 
  = 27,1V
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -1525,6 +1525,8 @@ out
 \end_layout
 
 \begin_layout Itemize
+
+\shape italic
 Bereken het rendement van de converter.
  Met en zonder eigenverbruik.
 \end_layout
@@ -1540,9 +1542,9 @@ in
 \end_inset
 
  = 20,0V * 0,72A = 14,4W
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 P
 \begin_inset script subscript
 
@@ -1553,9 +1555,9 @@ supply
 \end_inset
 
  = 18,9V * 6,429mA = 121,45mW = 0,12151W
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 P
 \begin_inset script subscript
 
@@ -1967,9 +1969,9 @@ in
 \end_inset
 
  = 20,2V
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -1980,9 +1982,9 @@ in
 \end_inset
 
  = 0,09A
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 P
 \begin_inset script subscript
 
@@ -1993,9 +1995,9 @@ in
 \end_inset
 
  = 20,2V * 0,09A = 1,818W
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 V
 \begin_inset script subscript
 
@@ -2006,9 +2008,9 @@ supply
 \end_inset
 
  = 18,9V
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -2019,9 +2021,9 @@ supply
 \end_inset
 
  = 38,02mA
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 P
 \begin_inset script subscript
 
@@ -2032,9 +2034,9 @@ supply
 \end_inset
 
  = 18,9V * 38,02mA = 718,58 mW = 0,71858 W
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 V
 \begin_inset script subscript
 
@@ -2045,9 +2047,9 @@ out
 \end_inset
 
  = 30,1V
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -2062,9 +2064,9 @@ out
 \end_inset
 
  
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 P
 \begin_inset script subscript
 
@@ -2079,18 +2081,18 @@ out
 
 \begin_layout Standard
 Rendement met eigenverbruik: η = 
-\begin_inset Formula $\frac{P_{OUT}}{P_{IN}+P_{SUPPLY}}=\frac{1,618}{1,818+0,71858}=0,638(63,8\%)$
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}+P_{SUPPLY}}=\frac{1,618}{1,818+0,71858}=0,638$
 \end_inset
 
-
+ (63,8%)
 \end_layout
 
 \begin_layout Standard
 Rendement zonder eigenverbruik: η = 
-\begin_inset Formula $\frac{P_{OUT}}{P_{IN}}=\frac{1,618}{1,818}=0,890(89,0\%)$
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}}=\frac{1,618}{1,818}=0,890$
 \end_inset
 
-
+ (89,0%)
 \end_layout
 
 \begin_layout Itemize
@@ -2112,9 +2114,9 @@ shunt
 \end_inset
 
  = 143mV
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 R
 \begin_inset script subscript
 
@@ -2129,9 +2131,9 @@ shunt
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -2210,34 +2212,30 @@ Voor het omhoog draaien van de ingangsspanning van de converter, is te zien
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Formula $V_{OUT}-d*V_{OUT}=V_{IN}$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Formula $-d*V_{OUT}=V_{IN}-V_{OUT}$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Formula $-d=\frac{V_{IN}-V_{OUT}}{V_{OUT}}$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Formula $d=\frac{V_{OUT}-V_{IN}}{V_{OUT}}$
 \end_inset
 
