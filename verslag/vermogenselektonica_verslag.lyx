@@ -83,11 +83,11 @@ Elektrotechniek
 \end_layout
 
 \begin_layout Author
-Andrew Lau
+Andrew Lau, 13058339
 \begin_inset Newline newline
 \end_inset
 
-Kevin Oei
+Kevin Oei, 13090062
 \begin_inset Newline newline
 \end_inset
 
@@ -95,7 +95,7 @@ EQ1.a
 \end_layout
 
 \begin_layout Date
-16-01-2015
+23-01-2015
 \end_layout
 
 \begin_layout Standard
@@ -137,13 +137,13 @@ Doel
 \end_layout
 
 \begin_layout Standard
-Het doel van dit practicum is inzicht verkrijgen in de werking van de boostconve
-rter.
+Het doel van de practicum is inzicht verkrijgen in de werking van de boostconver
+ter.
  Het verkrijgen van inzicht geschiedt ten eerste door het lezen van het
- dictaat behorend bij het vak en het zelf bouwen van de boostconverter schakelin
-g .
- Ten slotte wordt aan de gebouwde boostconverter schakeling gemeten aan
- de hand van de gegeven opdrachten.
+ dictaat en zelf de boostconverter schakeling te bouwen.
+ De boostconverter schema is op blackboard beschikbaar.
+ Tenslotte de gebouwede boostconverter schakeling meten door de opdrachten
+ uit te voeren.
 \end_layout
 
 \begin_layout Standard
@@ -1062,7 +1062,11 @@ out
 
 \end_inset
 
- = 38,3V / 560Ω = 0,068A
+ = 
+\begin_inset Formula $\frac{38,3V}{560Ω}=0,068A$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -1112,56 +1116,19 @@ out
 \end_layout
 
 \begin_layout Standard
-Rendement met eigenverbruik: η = P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-out
-\end_layout
-
+Rendement met eigenverbruik: η = 
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}+P_{SUPPLY}}=\frac{2,6044}{3,2+0,12145}=0,784(78,4\%)$
 \end_inset
 
- / (P
-\begin_inset script subscript
 
-\begin_layout Plain Layout
-in
-\end_layout
-
-\end_inset
-
- + P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-supply
-\end_layout
-
-\end_inset
-
-) = 2,6044 / (3,2 + 0,12145) = 0,784 (78,4%)
 \end_layout
 
 \begin_layout Standard
-Rendement zonder eigenverbruik: η = P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-out
-\end_layout
-
+Rendement zonder eigenverbruik: η = 
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}}=\frac{2,6044}{3,2}=0,814(81,4\%)$
 \end_inset
 
- / P
-\begin_inset script subscript
 
-\begin_layout Plain Layout
-in
-\end_layout
-
-\end_inset
-
- = 2,6044 / 3,2 = 0,814 (81,4%) 
 \end_layout
 
 \begin_layout Itemize
@@ -1506,9 +1473,9 @@ in
 \end_inset
 
  = 20,0V
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -1519,9 +1486,9 @@ in
 \end_inset
 
  = 0,71A
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 V
 \begin_inset script subscript
 
@@ -1532,9 +1499,9 @@ supply
 \end_inset
 
  = 18,9V
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -1545,9 +1512,9 @@ supply
 \end_inset
 
  = 6,429mA
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 V
 \begin_inset script subscript
 
@@ -1558,9 +1525,9 @@ out
 \end_inset
 
  = 27,1V
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -1570,7 +1537,11 @@ out
 
 \end_inset
 
- = 27,1V / 56Ω = 0,484A
+ = 
+\begin_inset Formula $\frac{27,1V}{56Ω}=0,484A$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -1618,56 +1589,19 @@ out
 \end_layout
 
 \begin_layout Standard
-Rendement met eigenverbruik: η = P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-out
-\end_layout
-
+Rendement met eigenverbruik: η = 
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}+P_{SUPPLY}}=\frac{13,12}{14,4+0,12151}=0,903(90,3\%)$
 \end_inset
 
- / (P
-\begin_inset script subscript
 
-\begin_layout Plain Layout
-in
-\end_layout
-
-\end_inset
-
- + P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-supply
-\end_layout
-
-\end_inset
-
-) = 13,12 / (14,4 + 0,12151) = 0,903 (90,3%)
 \end_layout
 
 \begin_layout Standard
-Rendement zonder eigenverbruik: η = P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-out
-\end_layout
-
+Rendement zonder eigenverbruik: η = 
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}}=\frac{13,12}{14,4}=0,911(91,1\%)$
 \end_inset
 
- / P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-in
-\end_layout
-
-\end_inset
-
- = 13,12 / 14,4 = 0,911 (91,1%) 
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -2053,9 +1987,9 @@ in
 \end_inset
 
  = 20,2V
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -2066,9 +2000,9 @@ in
 \end_inset
 
  = 0,09A
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 P
 \begin_inset script subscript
 
@@ -2079,9 +2013,9 @@ in
 \end_inset
 
  = 20,2V * 0,09A = 1,818W
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 V
 \begin_inset script subscript
 
@@ -2092,9 +2026,9 @@ supply
 \end_inset
 
  = 18,9V
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -2105,9 +2039,9 @@ supply
 \end_inset
 
  = 38,02mA
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 P
 \begin_inset script subscript
 
@@ -2118,9 +2052,9 @@ supply
 \end_inset
 
  = 18,9V * 38,02mA = 718,58 mW = 0,71858 W
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 V
 \begin_inset script subscript
 
@@ -2131,9 +2065,9 @@ out
 \end_inset
 
  = 30,1V
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 I
 \begin_inset script subscript
 
@@ -2143,10 +2077,14 @@ out
 
 \end_inset
 
- = 30,1V / 560Ω = 0,054A
-\end_layout
+ = 
+\begin_inset Formula $\frac{30,1V}{560Ω}=0,054A$
+\end_inset
 
-\begin_layout Standard
+ 
+\begin_inset Newline newline
+\end_inset
+
 P
 \begin_inset script subscript
 
@@ -2160,56 +2098,19 @@ out
 \end_layout
 
 \begin_layout Standard
-Rendement met eigenverbruik: η = P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-out
-\end_layout
-
+Rendement met eigenverbruik: η = 
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}+P_{SUPPLY}}=\frac{1,618}{1,818+0,71858}=0,638(63,8\%)$
 \end_inset
 
- / (P
-\begin_inset script subscript
 
-\begin_layout Plain Layout
-in
-\end_layout
-
-\end_inset
-
- + P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-supply
-\end_layout
-
-\end_inset
-
-) = 1,618 / (1,818 + 0,71858) = 0,638 (63,8%)
 \end_layout
 
 \begin_layout Standard
-Rendement zonder eigenverbruik: η = P
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-out
-\end_layout
-
+Rendement zonder eigenverbruik: η = 
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}}=\frac{1,618}{1,818}=0,890(89,0\%)$
 \end_inset
 
- / P
-\begin_inset script subscript
 
-\begin_layout Plain Layout
-in
-\end_layout
-
-\end_inset
-
- = 1,618 / 1,818 = 0,890 (89,0%) 
 \end_layout
 
 \begin_layout Itemize
@@ -2231,9 +2132,9 @@ shunt
 \end_inset
 
  = 143mV
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 R
 \begin_inset script subscript
 
@@ -2243,10 +2144,14 @@ shunt
 
 \end_inset
 
- = R4 // R5 = (2,2Ω * 2,2Ω) / (2,2Ω + 2,2Ω) = 1,1Ω
-\end_layout
+ = 
+\begin_inset Formula $R_{4}//R_{5}=\frac{2,2*2,2}{2,2+2,2}=1,1\text{Ω}$
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 I
 \begin_inset script subscript
 
@@ -2256,25 +2161,11 @@ shunt
 
 \end_inset
 
- = V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-shunt
-\end_layout
-
+ = 
+\begin_inset Formula $\frac{V_{SHUNT}}{R_{SHUNT}}=\frac{143mV}{1,1\text{Ω}}=130mA$
 \end_inset
 
- / R
-\begin_inset script subscript
 
-\begin_layout Plain Layout
-shunt
-\end_layout
-
-\end_inset
-
- = 143mV / 1,1Ω = 130mA
 \end_layout
 
 \begin_layout Standard
@@ -2328,6 +2219,64 @@ Sluit de 56Ω belasting aan.
  Beschrijf wat je ziet en verklaar.
 \end_layout
 
+\begin_layout Standard
+Voor het omhoog draaien van de ingangsspanning van de converter, is te zien
+ dat de duty cycle steeds kleiner wordt totdat de duty cycle 0 wordt.
+ Dit komt door de formule van de duty cycle van de boost converter:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{OUT}=V_{IN}*\frac{1}{1-d}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $V_{OUT}-d*V_{OUT}=V_{IN}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $-d*V_{OUT}=V_{IN}-V_{OUT}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $-d=\frac{V_{IN}-V_{OUT}}{V_{OUT}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $d=\frac{V_{OUT}-V_{IN}}{V_{OUT}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Als de ingangsspanning (V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+IN
+\end_layout
+
+\end_inset
+
+) steeds groter wordt, dan nadert de duty cycle naar nul.
+\end_layout
+
 \begin_layout Subsection
 Meting 4
 \end_layout
@@ -2340,33 +2289,68 @@ Bepaal aan de hand van de gemeten spanning en stroom de inductie van de
 \end_layout
 
 \begin_layout Standard
-F
+Fs = 50000Hz
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T=\frac{1}{F_{S}}=\frac{1}{50000}=0,00002s=20μs$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Duty cycle = 30% = 0,3
+\end_layout
+
+\begin_layout Standard
+dT = 0,3 * 20μs = 6μs
+\end_layout
+
+\begin_layout Standard
+De V
 \begin_inset script subscript
 
 \begin_layout Plain Layout
-S
+IN
 \end_layout
 
 \end_inset
 
- = 50000Hz
+is gegeven en die is gelijk aan 20,2V.
 \end_layout
 
 \begin_layout Standard
-T = 1 / F
+De ingangsstroom (I
 \begin_inset script subscript
 
 \begin_layout Plain Layout
-S
+IN
 \end_layout
 
 \end_inset
 
- = 1 / 50000 = 0,00002s = 20μs
+) is gemeten en die is gelijk aan 0,09A.
+ De rimplestroom door de spoel is circa 40% van de ingangsstroom.
+ De rimplestroom door de spoel is gelijk aan:
 \end_layout
 
 \begin_layout Standard
-Duty-cycle = 30% = 0,3
+\begin_inset Formula $\text{Δ}I_{L}=0,4*0,09A=0,036A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Met al de gegevens bekend kan de inductie van de spoel berekent worden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L=\frac{1}{\text{Δ}I_{L}}*V_{IN}*dT=\frac{1}{0,036}*20,2*6*10^{-6}=3,367mH$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -2374,6 +2358,10 @@ Duty-cycle = 30% = 0,3
 \shape italic
 Maak van deze meting een meetrapport.
  Gebruik daarbij scopenbeelden uit de oscilloscoop
+\end_layout
+
+\begin_layout Standard
+Dit meetrapport is het meetrapport die gemaakt is voor deze opdracht.
 \end_layout
 
 \begin_layout Standard
@@ -2392,7 +2380,11 @@ Conclusie
 \end_layout
 
 \begin_layout Standard
-De concluse die getrokken is ......
+Vanuit de metingen kan de conclusie getrokken worden dat de gebouwde boost-omvor
+mer werkt.
+ De golfvormen uit de theorie en de golfvormen die verkregen is tijdens
+ de metingen komen overeen.
+ Er zijn kleine verschillen in de golfvormen.
 \end_layout
 
 \begin_layout Subsection
@@ -2400,7 +2392,7 @@ Aanbeveling
 \end_layout
 
 \begin_layout Standard
-Onze aanbevelingen zijn ........
+Er wordt aanbevolen dat er altijd goed voorbereid wordt.
 \end_layout
 
 \begin_layout Standard
