@@ -128,17 +128,6 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Inleiding
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
 Doel
 \end_layout
 
@@ -163,6 +152,11 @@ Meetopstelling
 \end_layout
 
 \begin_layout Standard
+In de bijlage is het schema van de boostconverter te zien.
+ Met behulp van het schema, is de boostconverter gebouwd.
+\end_layout
+
+\begin_layout Standard
 Voor het meten van de opdrachten zijn de volgende onderdelen gebruikt:
 \end_layout
 
@@ -183,7 +177,7 @@ Oscilloscool
 \end_layout
 
 \begin_layout Itemize
-Bananenkabels
+Bananenstekkers
 \end_layout
 
 \begin_layout Itemize
@@ -195,13 +189,13 @@ Digitale multimeter
 \end_layout
 
 \begin_layout Itemize
-Spanningsbron
+Twee spanningsbronnen
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
 	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Boostconverter_schakeling.jpg
-	scale 60
+	scale 35
 
 \end_inset
 
@@ -218,21 +212,60 @@ In figuur 3.1 is de gebouwde boostconverter te zien.
 \end_layout
 
 \begin_layout Standard
-Figuur 3.x - Oscilloscoop
+\begin_inset Graphics
+	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/belasting.jpg
+	scale 35
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-In figuur 3.x is de oscilloscoop te zien die gebruikt is voor het uitbeelden
+Figuur 3.2 : Belasting van 560Ohm en 56Ohm
+\end_layout
+
+\begin_layout Standard
+Een belasting van 560Ohm en 56Ohm is gebruikt voor sommige opdrachten.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/oscilloscoop.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figuur 3.3 - Oscilloscoop
+\end_layout
+
+\begin_layout Standard
+In figuur 3.3 is de oscilloscoop te zien die gebruikt is voor het uitbeelden
  van de spanningen over bepaalde componenten.
- De oscilloscoop die gebruikt is, is 'Serial-nummer'.
+ De oscilloscoop die gebruikt is, is Tektronix DPO 2004B.
 \end_layout
 
 \begin_layout Standard
-Figuur 3.x - Functiegenerator
+\begin_inset Graphics
+	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/functiegenerator.jpg
+	scale 35
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-De functiegenerator in figuur 3.x is gebruikt voor het opwekken van een frequenti
+Figuur 3.4 - Functiegenerator
+\end_layout
+
+\begin_layout Standard
+De functiegenerator in figuur 3.4 is gebruikt voor het opwekken van een frequenti
 e signaal.
  De functiegenerator kan ook de duty cycle en amplitude instellen.
 \end_layout
@@ -248,16 +281,36 @@ e signaal.
 \end_layout
 
 \begin_layout Standard
-Figuur 3.x - Digitale multimeter
+Figuur 3.5 - Digitale multimeter
 \end_layout
 
 \begin_layout Standard
 Een digitale multimeter is gebruikt voor het verrichten van de metingen
- zoals te zien is in figuur 3.x.
+ zoals te zien is in figuur 3.5.
  We hebben voor een digitale multimeter gekozen omdat het decimale getallen
  geeft waardoor een digitale multemeter veel naukeuriger is dan een analoge
  multimeter.
  De digitale multimeter die gebruikt is, is Agilent 34401A.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/spanningsbron.jpg
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figuur 3.6 : Twee spanningsbronnen
+\end_layout
+
+\begin_layout Standard
+Twee spanningsbronnen zijn gebruikt om de boostconverter te voeden.
+ Eén van de spanningsbron voedt de Vin en de andere spanningsbron voedt
+ de Vsupply.
 \end_layout
 
 \begin_layout Standard
@@ -292,7 +345,7 @@ Meet en noteer de uitgangsspanning en stroom van de boostconverter bij de
 \begin_inset Text
 
 \begin_layout Plain Layout
-%
+duty cycle (%)
 \end_layout
 
 \end_inset
@@ -411,7 +464,11 @@ Onbelast
 
 \end_inset
 
+ 
+\end_layout
 
+\begin_layout Standard
+Tabel 3.1.1
 \end_layout
 
 \begin_layout Standard
@@ -426,7 +483,7 @@ Onbelast
 \begin_inset Text
 
 \begin_layout Plain Layout
-%
+duty cycle (%)
 \end_layout
 
 \end_inset
@@ -603,7 +660,42 @@ Belast met 56Ohm
 \end_layout
 
 \begin_layout Standard
-Stroombegrensing bereikt vanaf 46% bij een belasting van 56Ohm.
+Tabel 3.1.2
+\end_layout
+
+\begin_layout Standard
+Bij een duty cycle van 75% met een belasting van 56Ohm is V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+ = 14,8V.
+ Het komt voor dat V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+ bij een duty cycle van 75% kleiner is dan V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+out
+\end_layout
+
+\end_inset
+
+ bij een duty cycle van 50% omdat de spanningsbron niet voldoende stroom
+ levert.
+ De stroombegrenzing is dus bereikt.
+ De stroombegrenzing is vanaf 46% bij een belasting van 56Ohm bereikt.
 \end_layout
 
 \begin_layout Itemize
@@ -678,6 +770,25 @@ Meet met de scoop de stroom door de shunt.
 
 \end_layout
 
+\begin_layout Standard
+Figuur 3.1.1
+\end_layout
+
+\begin_layout Standard
+In figuur 3.1.1 is een scoopbeeld van de stroom over de shunt te zien.
+ De golfvorm van de stroom van figuur 3.1.1 en de golfvorm uit de theorie
+ zijn bijna hetzelfde.
+ Er is namelijk een klein verschill.
+ In figuur 3.1.1 is een vertikale lijn te zien wanneer de stroom toeneemt
+ (wanneer de mosfet ingeschakeld is) terwijl volgens de golfvorm uit de
+ theorie geen vertikale lijn aanwezig is wanneer de stroom toeneemt (wanneer
+ de mosfet ingeschakeld is).
+ Er is een vertikale lijn omdat de mosfet een push nodig heeft voor het
+ inschakelen.
+ Dus de stroom door de stunt stijgt voor een kort moment voor aanvangst
+ van het inschakelen van de mosfet.
+\end_layout
+
 \begin_layout Itemize
 Meet met de scoop de spanning over de mosfet (van drain naar ground).
  Teken de golfvorm en verklaar de verschillende spanningsniveau in de figuur.
@@ -691,6 +802,35 @@ Meet met de scoop de spanning over de mosfet (van drain naar ground).
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Figuur 3.1.2
+\end_layout
+
+\begin_layout Standard
+In figuur 3.1.2 is de golfvorm van de spanning over de mosfet te zien.
+ Wanneer de mosfet ingeschakeld is, is de spanning over de mosfet gelijk
+ aan 0V.
+ Wanneer de mosfet uitgeschakeld wordt, wordt de spanning over de mosfet
+ gelijk aan de uitgangsspanning (Vout).
+ Na een bepaalde tijd wordt de spanning over de mosfet gelijk aan de ingangsspan
+ning terwijl de mosfet nog steed uitgeschakeld is.
+ Tijdens de uitschakeling verandert de spanning over de mosfet van uitgangsspann
+ing naar ingangsspanning omdat de spoel (L1) helemaal ontladen is.
+ En omdat de spoel (L1) helemaal ontladen is, zorgt de diode (D3) ervoor
+ dat geen spanning langs D3 gaat waardoor de spanning over de mosfet gelijk
+ wordt aan de ingangsspanning.
+\end_layout
+
+\begin_layout Standard
+Er is een wobbel aanwezig tussen het overgang van uitgangsspanning naar
+ ingangsspanning terwijl de mosfet uitgeschakeld is.
+ Dit wobbel komt door de uitgangscondensator van de mosfet die volgeladen
+ is voordat de diode (D3) uit geleiding gaat.
+ Wanneer de diode (D3) uit geleiding gaat, gaat de uitgangscondensator van
+ de mosfet ontladen door de spoel en hierdoor gaat het wobbelen totdat de
+ spanning over de mosfet gelijk wordt aan de ingangsspanning.
 \end_layout
 
 \begin_layout Itemize
@@ -708,12 +848,32 @@ Meet met de scoop de spanning over de spoel (gebruik twee probes).
 
 \end_layout
 
+\begin_layout Standard
+Figuur 3.1.3
+\end_layout
+
+\begin_layout Standard
+In figuur 3.1.3 is de golfvorm (rood) van de spanning over de spoel te zien.
+ Wanneer de mosfet ingeschakeld is, is de spanning over de spoel gelijk
+ aan de ingangsspanning.
+ Wanneer de mosfet uitgeschakeld is, wordt de spanning over de spoel negatief.
+ De negatieve spanning over de spoel is gelijk aan de ingangsspanning min
+ de uitgangsspanning (Vin - Vout).
+ Tegelijkertijd ontlaad de spoel.
+ Wanneer de spoel helemaal ontladen is terwijl de mosfet nog steeds uitgeschakel
+d is, gaat de diode (D3) uit geleiding waardoor de spanning over de spoel
+ gelijk wordt aan 0V.
+ De spoel is als het ware een kortsluiting.
+ 
+\end_layout
+
 \begin_layout Itemize
 Is de converter nu in discontinu of continu bedrijf?
 \end_layout
 
 \begin_layout Standard
-De converter is in discontinue bedrijf.
+De converter is a.d.h.v.
+ de scoopbeelden (figuren 3.1.1, 3.1.2 en 3.1.3) in discontinue bedrijf.
 \end_layout
 
 \begin_layout Subsection
@@ -792,6 +952,25 @@ Meet met de scoop de stroom doorheen de shunt.
 
 \end_layout
 
+\begin_layout Standard
+Figuur 3.2.1
+\end_layout
+
+\begin_layout Standard
+In figuur 3.2.1 is een scoopbeeld van de stroom over de shunt te zien.
+ De golfvorm van de stroom van figuur 3.2.1 en de golfvorm uit de theorie
+ zijn bijna hetzelfde.
+ Er is namelijk een klein verschill.
+ In figuur 3.2.1 is een vertikale lijn te zien wanneer de stroom toeneemt
+ (wanneer de mosfet ingeschakeld is) terwijl volgens de golfvorm uit de
+ theorie geen vertikale lijn aanwezig is wanneer de stroom toeneemt (wanneer
+ de mosfet ingeschakeld is).
+ Er is een vertikale lijn omdat de mosfet een push nodig heeft voor het
+ inschakelen.
+ Dus de stroom door de stunt stijgt voor een kort moment voor aanvangst
+ van het inschakelen van de mosfet.
+\end_layout
+
 \begin_layout Itemize
 Meet met de scoop de spanning over de mosfet.
  Teken de golfvorm en verklaar de verschillende spanningsniveau in de figuur.
@@ -808,6 +987,10 @@ Meet met de scoop de spanning over de mosfet.
 \end_layout
 
 \begin_layout Standard
+Figuur 3.2.2
+\end_layout
+
+\begin_layout Standard
 \begin_inset Graphics
 	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Meting 2/Meting 2-4 zoomed.PNG
 	scale 80
@@ -815,6 +998,48 @@ Meet met de scoop de spanning over de mosfet.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Figuur 3.2.3
+\end_layout
+
+\begin_layout Standard
+In figuur 3.2.2 is de golfvorm van de spanning over de mosfet (V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+DS
+\end_layout
+
+\end_inset
+
+) te zien.
+ Wanneer de mosfet ingeschakeld is, is V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+DS
+\end_layout
+
+\end_inset
+
+ in het begin een negatieve spanning die naar 0V loopt.
+ V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+DS
+\end_layout
+
+\end_inset
+
+ is in het begin negatief doordat er een overshoot plaats vindt wanneer
+ de mosfet ingeschakeld wordt.
+ In figuur 3.2.3 wobbelt de spanning over de mosfet wanneer de mosfet uitgeschakel
+t word.
+ De wobbel in figuur 3.2.3 komt door plotseling geleiding door de diode.
+ Na de wobbel wordt de spanning over de mosfet gelijk aan de uitgangsspanning.
 \end_layout
 
 \begin_layout Itemize
@@ -832,12 +1057,27 @@ Meet met de scoop de spanning over de spoel.
 
 \end_layout
 
+\begin_layout Standard
+Figuur 3.2.4
+\end_layout
+
+\begin_layout Standard
+In figuur 3.2.4 is de golfvorm van de spanning over de spoel te zien.
+ Wanneer de mosfet ingeschakeld is, is de spanning over de spoel gelijk
+ aan de ingangsspanning, maar de spanning daalt.
+ Wanneer de mosfet uitgeschakeld is, wordt de spanning over de spoel negatief.
+ De negatieve spanning over de spoel is gelijk aan de ingangsspanning min
+ de uitgangsspanning (Vin - Vout).
+ Door de plotselinge geleiding van de diode (D3) schiet de spanning over
+ de spoel naar een nog lagere spanning (Vin - Vout) voor een korte periode.
+\end_layout
+
 \begin_layout Itemize
 Is de converter nu in discontinu of continu bedrijf?
 \end_layout
 
 \begin_layout Standard
-De converter is in continu bedrijf.
+De converter is aan de hand van de scoopbeelden in continu bedrijf.
 \end_layout
 
 \begin_layout Subsection
@@ -935,7 +1175,7 @@ Figuur 4.3.x
 \end_layout
 
 \begin_layout Standard
-De converter is discontinu.
+De converter is in discontinu bedrijf.
 \end_layout
 
 \begin_layout Itemize
@@ -960,6 +1200,10 @@ Fs = 50000Hz
 
 \begin_layout Standard
 T = 1 / Fs = 1 / 50000 = 0,00002s = 20μs
+\end_layout
+
+\begin_layout Standard
+Duty cycle = 30% = 0,3
 \end_layout
 
 \begin_layout Itemize
@@ -1005,11 +1249,10 @@ Onze aanbevelingen zijn ........
 Bronvermelding
 \end_layout
 
-\begin_layout Standard
-Alle apparaten die gebruikt zijn voor het verrichten van de metingen zijn
- in eigendommen van De Haagse Hogeschool vestiging Delft.
- De scoopbeelden zijn door de oscilloscoop van De Haagse Hogeschool gemaakt.
- 
+\begin_layout Enumerate
+van Duijsen, P.J.
+ (2014).
+ Vermogenselektronica: Schakelende Voeding.
 \end_layout
 
 \begin_layout Standard
