@@ -95,7 +95,7 @@ EQ1.a
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Boostconverter_schakeling.jpg
+	filename ../foto's/Boostconverter_schakeling.jpg
 	scale 55
 	rotateOrigin center
 
@@ -194,7 +194,7 @@ Twee spanningsbronnen
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Boostconverter_schakeling.jpg
+	filename ../foto's/Boostconverter_schakeling.jpg
 	scale 35
 
 \end_inset
@@ -213,7 +213,7 @@ In figuur 3.1 is de gebouwde boostconverter te zien.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/belasting.jpg
+	filename ../foto's/belasting.jpg
 	scale 35
 
 \end_inset
@@ -232,7 +232,7 @@ Een belasting van 560Ohm en 56Ohm is gebruikt voor sommige opdrachten.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/oscilloscoop.jpg
+	filename ../foto's/oscilloscoop.jpg
 	scale 80
 
 \end_inset
@@ -252,7 +252,7 @@ In figuur 3.3 is de oscilloscoop te zien die gebruikt is voor het uitbeelden
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/functiegenerator.jpg
+	filename ../foto's/functiegenerator.jpg
 	scale 35
 
 \end_inset
@@ -272,7 +272,7 @@ e signaal.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Digitale multimeter.jpg
+	filename ../foto's/Digitale multimeter.jpg
 	scale 10
 
 \end_inset
@@ -295,7 +295,7 @@ Een digitale multimeter is gebruikt voor het verrichten van de metingen
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/spanningsbron.jpg
+	filename ../foto's/spanningsbron.jpg
 	scale 35
 
 \end_inset
@@ -762,7 +762,7 @@ Meet met de scoop de stroom door de shunt.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Meting 1/TEK00001.PNG
+	filename ../foto's/Meting 1/TEK00001.PNG
 	scale 80
 
 \end_inset
@@ -796,7 +796,7 @@ Meet met de scoop de spanning over de mosfet (van drain naar ground).
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Meting 1/TEK00002.PNG
+	filename ../foto's/Meting 1/TEK00002.PNG
 	scale 80
 
 \end_inset
@@ -840,7 +840,7 @@ Meet met de scoop de spanning over de spoel (gebruik twee probes).
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Meting 1/TEK00003.PNG
+	filename ../foto's/Meting 1/TEK00003.PNG
 	scale 80
 
 \end_inset
@@ -944,7 +944,7 @@ Meet met de scoop de stroom doorheen de shunt.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Meting 2/Meting 2-3.PNG
+	filename ../foto's/Meting 2/Meting 2-3.PNG
 	scale 80
 
 \end_inset
@@ -978,7 +978,7 @@ Meet met de scoop de spanning over de mosfet.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Meting 2/Meting 2-4.PNG
+	filename ../foto's/Meting 2/Meting 2-4.PNG
 	scale 80
 
 \end_inset
@@ -992,7 +992,7 @@ Figuur 3.2.2
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Meting 2/Meting 2-4 zoomed.PNG
+	filename ../foto's/Meting 2/Meting 2-4 zoomed.PNG
 	scale 80
 
 \end_inset
@@ -1049,7 +1049,7 @@ Meet met de scoop de spanning over de spoel.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Meting 2/Meting 2-5.PNG
+	filename ../foto's/Meting 2/Meting 2-5.PNG
 	scale 80
 
 \end_inset
@@ -1162,7 +1162,7 @@ Ishunt = Vshunt / Rshunt = 143mV / 1,1Ohm = 130mA
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/Meting 3/Meting 3-2.PNG
+	filename ../foto's/Meting 3/Meting 3-2.PNG
 	scale 80
 
 \end_inset
@@ -1268,7 +1268,7 @@ Bijlage
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename C:/Users/Andrew/Documents/GitHub/Vermogenselektronica-Practicum/foto's/werkelijke_schakelin.png
+	filename ../foto's/werkelijke_schakelin.png
 	scale 90
 	rotateAngle 90
 
