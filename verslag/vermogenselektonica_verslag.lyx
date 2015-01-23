@@ -137,13 +137,13 @@ Doel
 \end_layout
 
 \begin_layout Standard
-Het doel van de practicum is inzicht verkrijgen in de werking van de boostconver
-ter.
+Het doel van het practicum is inzicht verkrijgen in de werking van de boostconve
+rter.
  Het verkrijgen van inzicht geschiedt ten eerste door het lezen van het
- dictaat en zelf de boostconverter schakeling te bouwen.
- De boostconverter schema is op blackboard beschikbaar.
- Tenslotte de gebouwede boostconverter schakeling meten door de opdrachten
- uit te voeren.
+ dictaat en het zelf bouwen van de boostconverter schakeling.
+ Het boostconverter schema is op blackboard beschikbaar.
+ Ten slotte wordt aan de gebouwde boostconverter schakeling gemeten aan
+ de hand van de gegeven opdrachten.
 \end_layout
 
 \begin_layout Standard
@@ -287,7 +287,8 @@ Belasting van 560Ω en 56Ω
 
 \begin_layout Standard
 Een belasting van 560Ω en 56Ω is gebruikt voor sommige opdrachten.
- Deze zijn bevestigd aan een koellichaam om de 
+ Deze zijn bevestigd aan een koellichaam om de warmte af te voeren (de weerstand
+en worden behoorlijk heet).
 \end_layout
 
 \begin_layout Standard
@@ -555,7 +556,7 @@ status open
 
 \begin_layout Plain Layout
 Metingen zonder belasting, tijdens het practicum zijn er aangepaste duty-cycles
- opgegeven om te gebruiken
+ opgegeven om te gebruiken bij deze meting
 \end_layout
 
 \end_inset
@@ -1117,18 +1118,18 @@ out
 
 \begin_layout Standard
 Rendement met eigenverbruik: η = 
-\begin_inset Formula $\frac{P_{OUT}}{P_{IN}+P_{SUPPLY}}=\frac{2,6044}{3,2+0,12145}=0,784(78,4\%)$
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}+P_{SUPPLY}}=\frac{2,6044}{3,2+0,12145}=0,784$
 \end_inset
 
-
+ (78,4%)
 \end_layout
 
 \begin_layout Standard
 Rendement zonder eigenverbruik: η = 
-\begin_inset Formula $\frac{P_{OUT}}{P_{IN}}=\frac{2,6044}{3,2}=0,814(81,4\%)$
+\begin_inset Formula $\frac{P_{OUT}}{P_{IN}}=\frac{2,6044}{3,2}=0,814$
 \end_inset
 
-
+ (81,4%)
 \end_layout
 
 \begin_layout Itemize
@@ -1210,12 +1211,11 @@ reference "fig:Spanning-shunt-meting1"
 
  is een verticale lijn te zien wanneer de stroom toeneemt (wanneer de mosfet
  ingeschakeld wordt) terwijl, volgens de golfvorm uit de theorie, geen verticale
- lijn aanwezig is wanneer de stroom toeneemt (wanneer de mosfet ingeschakeld
- wordt).
+ lijn aanwezig is wanneer de stroom toeneemt.
  Er is een verticale lijn omdat de mosfet een 'push' nodig heeft voor het
  inschakelen.
- De stroom door de stunt stijgt dus aanzienlijk voor een kort moment voor
- aanvangst van het inschakelen van de mosfet.
+ De stroom door de shunt stijgt dus aanzienlijk voor een kort moment bij
+ het inschakelen van de mosfet.
 \end_layout
 
 \begin_layout Itemize
@@ -1292,9 +1292,9 @@ out
 ning terwijl de mosfet nog steeds uitgeschakeld is.
  Tijdens de uitschakeling verandert de spanning over de mosfet van uitgangsspann
 ing naar ingangsspanning omdat de spoel (L1) helemaal ontladen is.
- Omdat de spoel (L1) helemaal ontladen is, zorgt de diode (D3) ervoor dat
- geen spanning langs D3 gaat waardoor de spanning over de mosfet gelijk
- wordt aan de ingangsspanning.
+ Omdat de spoel helemaal ontladen is, is de diode (D3) niet meer in geleiding
+ en de spoel gedraagt zich als een kortsluiting, waardoor de spanning over
+ de mosfet gelijk wordt aan de ingangsspanning.
 \end_layout
 
 \begin_layout Standard
@@ -1392,26 +1392,6 @@ in
  Wanneer de mosfet ingeschakeld is, is de spanning over de spoel gelijk
  aan de ingangsspanning.
  Wanneer de mosfet uitgeschakeld is, wordt de spanning over de spoel negatief.
- De negatieve spanning over de spoel is gelijk aan de ingangsspanning min
- de uitgangsspanning (V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-in
-\end_layout
-
-\end_inset
-
- - V
-\begin_inset script subscript
-
-\begin_layout Plain Layout
-out
-\end_layout
-
-\end_inset
-
-).
  Tegelijkertijd ontlaad de spoel.
  Wanneer de spoel helemaal ontladen is terwijl de mosfet nog steeds uitgeschakel
 d is, gaat de diode (D3) uit geleiding waardoor de spanning over de spoel
@@ -1448,7 +1428,7 @@ reference "fig:Spanning-spoel-meting1"
 
 \end_inset
 
-) kan geconcludeert worden dat de converter in discontinu bedrijf is.
+) kan geconcludeerd worden dat de converter in discontinu bedrijf is.
 \end_layout
 
 \begin_layout Subsection
@@ -1560,9 +1540,9 @@ in
 \end_inset
 
  = 20,0V * 0,72A = 14,4W
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 P
 \begin_inset script subscript
 
@@ -1573,9 +1553,9 @@ supply
 \end_inset
 
  = 18,9V * 6,429mA = 121,45mW = 0,12151W
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 P
 \begin_inset script subscript
 
@@ -1683,12 +1663,11 @@ reference "fig:Spanning-shunt-meting2"
 
  is een verticale lijn te zien wanneer de stroom toeneemt (wanneer de mosfet
  ingeschakeld wordt) terwijl, volgens de golfvorm uit de theorie, geen verticale
- lijn aanwezig is wanneer de stroom toeneemt (wanneer de mosfet ingeschakeld
- wordt).
+ lijn aanwezig is wanneer de stroom toeneemt.
  Er is een verticale lijn omdat de mosfet een 'push' nodig heeft voor het
  inschakelen.
- De stroom door de stunt stijgt dus aanzienlijk voor een kort moment voor
- aanvangst van het inschakelen van de mosfet.
+ De stroom door de shunt stijgt dus aanzienlijk voor een kort moment bij
+ het inschakelen van de mosfet.
 \end_layout
 
 \begin_layout Itemize
@@ -1844,7 +1823,7 @@ reference "fig:Spanning-mosfet-meting2"
 
 \shape italic
 Meet met de scoop de spanning over de spoel.
- Teken de golfvorm en verklaar de verschillende spanningsniveau in de figuur.
+ Teken de golfvorm en verklaar de verschillende spanningsniveaus in de figuur.
 \end_layout
 
 \begin_layout Standard
@@ -1953,7 +1932,8 @@ Is de converter nu in discontinu of continu bedrijf?
 \end_layout
 
 \begin_layout Standard
-De converter is aan de hand van de scoopbeelden in continu bedrijf.
+Aan de hand van de scoopbeelden kan gezien worden dat de converter in continu
+ bedrijf werkt.
 \end_layout
 
 \begin_layout Subsection
@@ -2221,8 +2201,8 @@ Sluit de 56Ω belasting aan.
 
 \begin_layout Standard
 Voor het omhoog draaien van de ingangsspanning van de converter, is te zien
- dat de duty cycle steeds kleiner wordt totdat de duty cycle 0 wordt.
- Dit komt door de formule van de duty cycle van de boost converter:
+ dat de duty-cycle steeds kleiner wordt totdat de duty-cycle 0 wordt.
+ Dit komt door de formule van de duty-cycle van de boost converter:
 \end_layout
 
 \begin_layout Standard
@@ -2289,7 +2269,16 @@ Bepaal aan de hand van de gemeten spanning en stroom de inductie van de
 \end_layout
 
 \begin_layout Standard
-Fs = 50000Hz
+F
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+S
+\end_layout
+
+\end_inset
+
+ = 50000Hz
 \end_layout
 
 \begin_layout Standard
@@ -2300,7 +2289,7 @@ Fs = 50000Hz
 \end_layout
 
 \begin_layout Standard
-Duty cycle = 30% = 0,3
+Duty-cycle = 30% = 0,3
 \end_layout
 
 \begin_layout Standard
@@ -2317,7 +2306,7 @@ IN
 
 \end_inset
 
-is gegeven en die is gelijk aan 20,2V.
+ is gegeven en die is gelijk aan 20,2V.
 \end_layout
 
 \begin_layout Standard
@@ -2331,8 +2320,8 @@ IN
 \end_inset
 
 ) is gemeten en die is gelijk aan 0,09A.
- De rimplestroom door de spoel is circa 40% van de ingangsstroom.
- De rimplestroom door de spoel is gelijk aan:
+ De rimpelstroom door de spoel is circa 40% van de ingangsstroom.
+ De rimpelstroom door de spoel is gelijk aan:
 \end_layout
 
 \begin_layout Standard
@@ -2343,7 +2332,7 @@ IN
 \end_layout
 
 \begin_layout Standard
-Met al de gegevens bekend kan de inductie van de spoel berekent worden.
+Met al de gegevens bekend kan de inductie van de spoel berekend worden.
 \end_layout
 
 \begin_layout Standard
@@ -2351,17 +2340,6 @@ Met al de gegevens bekend kan de inductie van de spoel berekent worden.
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Maak van deze meting een meetrapport.
- Gebruik daarbij scopenbeelden uit de oscilloscoop
-\end_layout
-
-\begin_layout Standard
-Dit meetrapport is het meetrapport die gemaakt is voor deze opdracht.
 \end_layout
 
 \begin_layout Standard
@@ -2372,27 +2350,17 @@ Dit meetrapport is het meetrapport die gemaakt is voor deze opdracht.
 \end_layout
 
 \begin_layout Section
-Conclusie en aanbeveling
-\end_layout
-
-\begin_layout Subsection
 Conclusie
 \end_layout
 
 \begin_layout Standard
 Vanuit de metingen kan de conclusie getrokken worden dat de gebouwde boost-omvor
 mer werkt.
- De golfvormen uit de theorie en de golfvormen die verkregen is tijdens
+ De golfvormen uit de theorie en de golfvormen die verkregen zijn tijdens
  de metingen komen overeen.
- Er zijn kleine verschillen in de golfvormen.
-\end_layout
-
-\begin_layout Subsection
-Aanbeveling
-\end_layout
-
-\begin_layout Standard
-Er wordt aanbevolen dat er altijd goed voorbereid wordt.
+ Het idee achter het practicum was het inzicht krijgen in de verschillen
+ tussen theorie en praktijk van deze goflvormen, en dat is duidelijk gebleken
+ in de meetresultaten.
 \end_layout
 
 \begin_layout Standard
@@ -2409,7 +2377,12 @@ Bronvermelding
 \begin_layout Enumerate
 van Duijsen, P.J.
  (2014).
- Vermogenselektronica: Schakelende Voeding.
+ 
+\shape italic
+Vermogenselektronica: Schakelende Voedingen
+\shape default
+ (1e druk).
+ De Haagse Hogeschool.
 \end_layout
 
 \begin_layout Standard
